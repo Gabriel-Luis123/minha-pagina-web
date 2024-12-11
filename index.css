@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/cenario.png) no-repeat fixed;
+    background-size: cover;
+}
+
+#ursinho-andar {
+    position: absolute; 
+    top: 63%; 
+    left: 0%; 
+    width: 100px; 
+    height: 100px; 
+    background-image: url("assets/urso-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1; 
+    transform-origin: center bottom;
+}
